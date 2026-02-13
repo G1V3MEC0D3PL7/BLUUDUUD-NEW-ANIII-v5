@@ -1,0 +1,9 @@
+-- The Notification
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Script Loaded";
+    Text = "G1V3MEC0D3PL7 on YouTube made this";
+    Duration = 5;
+})
+
+-- The Original Script (BLUUDUUD NEW ANIII v5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/G1V3MEC0D3PL7/BLUUDUUD-NEW-ANIII-v5/refs/heads/main/Bluu%20anim"))()
