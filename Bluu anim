@@ -1,0 +1,23 @@
+local bluududNewAnim = {
+		Idle = "rbxassetid://96013907659083";
+		Walk = "rbxassetid://111019416323211";
+		Run = "rbxassetid://101711406381367";
+		InjuredIdle = "rbxassetid://96013907659083";
+		InjuredWalk = "rbxassetid://111019416323211";
+		InjuredRun = "rbxassetid://101711406381367";
+		Attack = "rbxassetid://134020762419760";
+		CorruptNature = "rbxassetid://70383685258424";
+		SummonPizzaDelivery = "rbxassetid://115823480298887";
+		WalkspeedOverrideStart = "rbxassetid://77357414021059";
+		WalkspeedOverrideLoop = "rbxassetid://85960461320564";
+		WalkspeedOverrideHit = "rbxassetid://91020848466464";
+		WalkspeedOverrideMiss = "rbxassetid://72715576901515";
+		WalkspeedOverrideCollide = "rbxassetid://138325799977185";
+}
+
+
+local cool = require(game:GetService("ReplicatedStorage").Assets.Killers.c00lkidd.Config) 
+
+for i, v in pairs(bluududNewAnim) do
+    cool.Animations[i] = v
+end
